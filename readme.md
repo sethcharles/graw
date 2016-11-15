@@ -9,7 +9,7 @@ Before depending on graw, please consult the [API Promise](promise.md).
 [![Coverage Status](https://coveralls.io/repos/turnage/graw/badge.svg?branch=master&service=github)](https://coveralls.io/github/turnage/graw?branch=master)
 [![GoDoc](https://godoc.org/github.com/turnage/graw?status.svg)](https://godoc.org/github.com/turnage/graw)
 
-    go get github.com/turnage/graw
+    go get gopkg.in/turnage/graw.v0
 
 graw is for writing Reddit bots
 * that run forever and all the time.

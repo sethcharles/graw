@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/turnage/graw/grerr"
+	"gopkg.in/turnage/graw.v0/grerr"
 )
 
 const (

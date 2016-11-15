@@ -4,8 +4,8 @@ package graw
 import (
 	"sync"
 
-	"github.com/turnage/graw/internal/client"
-	"github.com/turnage/graw/internal/engine"
+	"gopkg.in/turnage/graw.v0/internal/client"
+	"gopkg.in/turnage/graw.v0/internal/engine"
 )
 
 var (
@@ -20,7 +20,7 @@ var (
 // graw will monitor all provided subreddits.
 //
 // For more information, see
-// https://github.com/turnage/graw/wiki
+// https://gopkg.in/turnage/graw.v0/wiki
 func Run(agent string, bot interface{}, subreddits ...string) error {
 	cli, err := client.New(agent)
 	if err != nil {

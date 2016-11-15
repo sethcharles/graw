@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/turnage/graw/botfaces"
-	"github.com/turnage/graw/internal/api"
-	"github.com/turnage/graw/internal/client"
-	"github.com/turnage/graw/internal/monitor"
+	"gopkg.in/turnage/graw.v0/botfaces"
+	"gopkg.in/turnage/graw.v0/internal/api"
+	"gopkg.in/turnage/graw.v0/internal/client"
+	"gopkg.in/turnage/graw.v0/internal/monitor"
 	"github.com/turnage/redditproto"
 )
 

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/turnage/graw/botfaces"
+	"gopkg.in/turnage/graw.v0/botfaces"
 	"github.com/turnage/redditproto"
 )
 
