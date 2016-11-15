@@ -4,6 +4,9 @@ go:
 before_install:
 - go get github.com/philwinder/gocoverage
 - go get github.com/mattn/goveralls
+- mkdir -p $HOME/gopath/src/gopkg.in/turnage
+- mv $HOME/gopath/src/github.com/turnage/graw $HOME/gopath/src/gopkg.in/turnage/graw.v0
 script:
-- "$HOME/gopath/bin/gocoverage -output=cover_profile"
-- "$HOME/gopath/bin/goveralls -coverprofile=cover_profile -service=travis-ci"
+- cd $HOME/gopath/src/gopkg.in/turnage/graw.v0
+- $HOME/gopath/bin/gocoverage -output=cover_profile
+- $HOME/gopath/bin/goveralls -coverprofile=cover_profile -service=travis-ci
