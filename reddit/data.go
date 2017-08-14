@@ -20,9 +20,10 @@ type Comment struct {
 	AuthorFlairCSSClass string `mapstructure:"author_flair_css_class"`
 	AuthorFlairText     string `mapstructure:"author_flair_text"`
 
-	LinkAuthor string `mapstructure:"link_author"`
-	LinkURL    string `mapstructure:"link_url"`
-	LinkTitle  string `mapstructure:"link_title"`
+	LinkAuthor    string `mapstructure:"link_author"`
+	LinkURL       string `mapstructure:"link_url"`
+	LinkTitle     string `mapstructure:"link_title"`
+	LinkPermalink string `mapstructure:"link_permalink"`
 
 	Subreddit   string `mapstructure:"subreddit"`
 	SubredditID string `mapstructure:"subreddit_id"`
